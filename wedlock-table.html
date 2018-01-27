@@ -1,0 +1,118 @@
+<html>
+<head>
+	<title>Book Table-Crudfoyers</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/button.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdn.rawgit.com/mdehoog/Semantic-UI-Calendar/76959c6f7d33a527b49be76789e984a0a407350b/dist/calendar.min.js"></script>
+	<link href="https://cdn.rawgit.com/mdehoog/Semantic-UI-Calendar/76959c6f7d33a527b49be76789e984a0a407350b/dist/calendar.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/semantic.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="header">
+	<div class="logo">
+		<a href="">CRUDFOYERS</a>
+	</div>
+	<div class="nav-bar">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Services</a></li>
+			<li><a href="">Gallery</a></li>
+			<li><a href="">About Us</a></li>
+			<li><a href="">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="heading" style="width: inherit;">
+	<h2>Book Table</h2>
+	
+</div>
+
+<div class="form-container" style="width: inherit; background-color: #fbed6c;">
+	 <h2>Just fill this little form.</h2>
+	 <br><br><br>
+
+	<form class="ui form" style="text-align: left;">
+		<div class="two fields">
+		  <div class="field">
+		    <label>Name</label>
+		    <input type="text" name="first-name" placeholder="Name">
+		  </div>
+		  <div class="field">
+		    <label>E-mail</label>
+		    <input type="text" name="e-mail" placeholder="xzx@puffoo.com">
+		  </div>
+		</div>
+
+		<div class="two fields">
+			<div class="field">
+				<label>Phone No.</label>
+				<input type="text" name="phone-number">
+			</div>
+			<div class="field">
+				<label>Number of Persons (must be more than 7)</label>
+				<input type="text" name="number-of-persons" placeholder=">7">
+			 </div>
+			
+		</div>
+
+		<div class="two fields">
+		    <div class="ui calendar" id="example1">
+			    <div class="ui input left icon">
+			      <i class="calendar icon"></i>
+			      <input type="text" placeholder="Date/Time">
+			    </div>
+			</div>
+    	</div>
+	  <div class="field">
+	    <div class="ui checkbox">
+	      <input type="checkbox" tabindex="0" class="hidden">
+	      <label>I agree to the Terms and Conditions</label>
+	    </div>
+	  </div>
+	  <button class="ui button" type="submit">Submit</button>
+	</form>
+	<div class="ui calendar" id="example1">
+    <div class="ui input left icon">
+      <i class="calendar icon"></i>
+      <input type="text" placeholder="Date/Time">
+    </div>
+  </div>
+</div>
+
+<div class="footer" style="width: inherit; height: 160px;">
+	<div class="left">
+		<h1>CRUDFOYERS</h1>
+		<P>copyright 2018-2019</P>
+		<span class="social-link">
+			<img src="">
+			<img src="">
+		</span>
+	</div>
+	<div class="right">
+		<p>
+			9485839385<br>
+			crudfoyers@gmail.com<br>
+			Dhanbad, Jharkhand
+			India - 826004
+		</p>
+	</div>
+</div>
+
+
+<script>
+	$(document).ready(function() {
+		$('#example1').calendar();
+
+	})
+</script>
+</body>
+</html>
+</body>
+</html>
