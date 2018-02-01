@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crudfoyers</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<style>
+		.box-images {
+			position: relative;
+			display: block;
+			width: 90%;
+			height: 2500px;
+			justify-content: center;
+			padding: 5%;
+			background: black;
+		}
+		.box-images img {
+			float: left;
+			position: relative;
+			width: 40%;
+			padding: 1%;
+			margin: 4%;
+			background: #fbed6c;
+		}
+		.box-video {
+			position: relative;
+			background: #fbed6c;
+			width: 90%;
+			padding: 5%;
+		}
+		.box-video .hotel-info {
+			position: relative;
+			float: left;
+		    padding: 5%;
+		    width: 30%;
+		}
+		.box-video video{
+			position: relative;
+			width: 60%;
+		}
+		@media only screen and ( max-width: 600px){
+			.box-images {
+
+			}
+			.box-images img {
+				width: 90%;
+			}
+			.box-video .hotel-info {
+				text-align: center;
+				width: 100%;
+				padding: 5% 0;
+			}
+			.box-video video {
+				width: 100%;
+				padding: 5% 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+	<div class="logo">
+		<a href="index.html">CRUDFOYERS</a>
+	</div>
+	<div class="nav-bar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a id="link-services" href="#services">Services</a></li>
+			<li><a href="">Gallery</a></li>
+			<li><a id="link-about-us" href="#about-us">About Us</a></li>
+			<li><a id="link-contact-us" href="#contact-us">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="heading">
+	<h2>LUXURY</h2>
+</div>
+<div class="box-video">
+	<div class="hotel-info">
+		<h1>The Wedlock Greens</h1>
+		<br>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.
+		</p>
+	</div>
+	<video width="100%" height="auto" controls>
+		<source src="img/wedlock/video1.mp4" type="video/mp4">
+	</video>
+</div>
+<div class="box-images">
+	<img src="img/wedlock/6.jpg">
+	<img src="img/wedlock/1.jpg">
+	<img src="img/wedlock/7.jpg">
+	<img src="img/wedlock/4.jpg">
+	<img src="img/wedlock/5.jpg">
+	<img src="img/wedlock/3.jpg">
+	<img src="img/wedlock/2.jpg">
+</div>
+
+</body>
+</html>
